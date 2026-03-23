@@ -7,6 +7,7 @@ An intelligent resume screening system that automatically classifies resumes int
 ## 🚀 Demo
 
 Upload a resume in PDF, DOCX, or TXT format and instantly get the predicted job category.
+
 Live Demo:[Click Here](https://urd2bwhnk3gjzhkrqtspzv.streamlit.app/)
 
 ---
