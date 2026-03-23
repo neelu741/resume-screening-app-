@@ -57,7 +57,7 @@ Live Demo:[Click Here](https://urd2bwhnk3gjzhkrqtspzv.streamlit.app/)
 resume-screening-app/
 │
 ├── app.py                          # Streamlit web app
-├── Resume_Screening_with_Python.ipynb  # Model training notebook
+├── resume_screening.ipynb  # Model training notebook
 ├── requirements.txt                # Project dependencies
 │
 ├── UpdatedResumeDataSet.csv        # Dataset (download separately)
