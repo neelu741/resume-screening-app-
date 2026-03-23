@@ -1,11 +1,21 @@
-import nltk
 import re
 import streamlit as st
 import joblib
+import gdown
+import os
 
-# Download required NLTK data
-nltk.download('punkt')
-nltk.download('stopwords')
+# Google Drive File IDs
+clf_id = "1pssoPoSI2RZ8r3gXyodXne0euLW4UYvt"
+tfidf_id = "1mqeWB4Nt6T6yxQwE2EZwCwUN9v7rcnp0"
+
+# Download model files if not present the model files were too large for github 
+if not os.path.exists("clf.pkl"):
+    gdown.download(f"https://drive.google.com/uc?id={clf_id}", "clf.pkl", quiet=False)
+
+if not os.path.exists("tfidf.pkl"):
+    gdown.download(f"https://drive.google.com/uc?id={tfidf_id}", "tfidf.pkl", quiet=False)
+
+
 
 # Load the model and vectorizer
 tfidf = joblib.load(open('tfidf.pkl', 'rb'))
