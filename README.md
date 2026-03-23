@@ -146,12 +146,12 @@ Three classifiers were trained and evaluated:
 ## 📦 Requirements
 
 See `requirements.txt`. Key packages:
-- **'streamlit'
-'scikit-learn'
-'pandas'
-'numpy'
-'joblib'
-'gdown'**
+- **streamlit**
+**scikit-learn**
+**pandas**
+**numpy**
+**joblib**
+**gdown**
 
 ---
 
