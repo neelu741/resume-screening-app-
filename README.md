@@ -146,12 +146,12 @@ Three classifiers were trained and evaluated:
 ## 📦 Requirements
 
 See `requirements.txt`. Key packages:
-- `scikit-learn==1.5.2`
-- `pandas==2.2.3`
-- `numpy==2.1.3`
-- `streamlit`
-- `PyPDF2`
-- `python-docx`
+- **'streamlit'
+'scikit-learn'
+'pandas'
+'numpy'
+'joblib'
+'gdown'**
 
 ---
 
