@@ -159,7 +159,7 @@ See `requirements.txt`. Key packages:
 
 **Neelu Kushwaha**  
 B.Tech CSE (AI & ML) | Dronacharya College of Engineering, Gurgaon  
-🔗 [GitHub](https://github.com/neelu741) • [Portfolio](https://neelukushwaha.netlify.app)
+🔗 [GitHub](https://github.com/neelu741) • [Portfolio](https://69c2290839fb229bc3c2d359--ornate-tulumba-369ec8.netlify.app/)
 
 ---
 
