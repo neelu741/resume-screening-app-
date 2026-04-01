@@ -1,3 +1,11 @@
+import zipfile
+import os
+
+# Extract zip if not already extracted
+if not os.path.exists("clf.pkl"):
+    with zipfile.ZipFile("model.zip", "r") as zip_ref:
+        zip_ref.extractall()
+        
 import streamlit as st
 import pickle
 import docx  # Extract text from Word file
@@ -5,7 +13,8 @@ import PyPDF2  # Extract text from PDF
 import re
 
 # Load pre-trained model and TF-IDF vectorizer (ensure these are saved earlier)
-svc_model = pickle.load(open('clf.pkl', 'rb'))  # Example file name, adjust as needed
+with open("clf.pkl", "rb") as f:
+    svc_model = pickle.load(f)# Example file name, adjust as needed
 tfidf = pickle.load(open('tfidf.pkl', 'rb'))  # Example file name, adjust as needed
 le = pickle.load(open('encoder.pkl', 'rb'))  # Example file name, adjust as needed
 
