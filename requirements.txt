@@ -2,5 +2,5 @@ streamlit
 scikit-learn
 pandas
 numpy
-joblib
-gdown
+python-docx
+PyPDF2
