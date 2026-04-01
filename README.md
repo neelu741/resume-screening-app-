@@ -150,8 +150,8 @@ See `requirements.txt`. Key packages:
 - scikit-learn
 - pandas
 - numpy
-- joblib
-- gdown**
+- python-docx
+- PyPDF2**
 
 ---
 
